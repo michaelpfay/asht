@@ -1,0 +1,14 @@
+Package: asht
+Type: Package
+Title: Applied Statistical Hypothesis Tests
+Version: 1.0.0
+Date: 2023-02-06
+Author: Michael P. Fay
+Maintainer: Michael P. Fay <mfay@niaid.nih.gov>
+Description: Gives some hypothesis test functions (sign test, median and other quantile tests, Wilcoxon signed rank test, coefficient of variation test, test of normal variance, test on weighted sums of Poisson [see Fay and Kim <doi:10.1002/bimj.201600111>], sample size for t-tests with different variances and non-equal n per arm, Behrens-Fisher test, nonparametric ABC intervals, Wilcoxon-Mann-Whitney test [with effect estimates and confidence intervals, see Fay and Malinovsky <doi:10.1002/sim.7890>], two-sample melding tests [see Fay, Proschan, and Brittain <doi:10.1111/biom.12231>], one-way ANOVA allowing var.equal=FALSE [see Brown and Forsythe, 1974, Biometrics]), prevalence confidence intervals that adjust for sensitivity and specificity [see Lang and Reiczigel, 2014 <doi:10.1016/j.prevetmed.2013.09.015>] or Bayer, Fay, and Graubard, 2023 <doi:10.48550/arXiv.2205.13494>). The focus is on hypothesis tests that have compatible confidence intervals, but some functions only have confidence intervals (e.g., prevSeSp).
+License: GPL-3
+Depends: stats, exact2x2 (>= 1.6.4), exactci, bpcp, coin
+Imports: perm, ssanv
+Suggests: bootstrap
+NeedsCompilation: no
+RoxygenNote: 7.2.3

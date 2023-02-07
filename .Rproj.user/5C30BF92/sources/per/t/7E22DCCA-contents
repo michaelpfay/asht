@@ -1,0 +1,39 @@
+#exportPattern("^[[:alpha:]]+")
+
+
+export(cvTest,quantileTest,signTest,var1Test,wspoissonTest,wsrTest,
+       medianTest, bfTest, pbf, qbf, bfControl, abcnonHtest, 
+       wmwTest, methodRuleWMW, wmwControl, latentTransform, Vpo, 
+       meldtTest, anovaOneWay, tukeyWelsch, meldCD, metaNorm, prevSeSp,
+       WprevSeSp,
+       simulateSS
+       )
+
+import(exact2x2, exactci, bpcp, ssanv, coin)
+
+importFrom("stats", "approx", "runif","isoreg")
+importFrom(stats, sd,var, 
+    pt, 
+    pbinom, rbinom, 
+    rgamma, qgamma, pgamma,
+    pnorm,qnorm,
+    setNames,terms, ecdf,
+    qchisq, pchisq,
+    quantile, 
+    wilcox.test,
+    uniroot)
+ importFrom("stats", "dt", "integrate", "qt", "rt", "setNames", "terms")
+ importFrom("stats", "kruskal.test", "pf", "ptukey")
+ 
+importFrom(ssanv,uniroot.integer)
+importFrom(exact2x2,unirootGrid)
+importFrom(perm,chooseMatrix)
+ 
+S3method(quantileTest,default)
+S3method(quantileTest,ordered)
+S3method(bfTest, default)
+S3method(bfTest, formula)
+
+S3method(wmwTest, default)
+S3method(wmwTest, formula)
+S3method(wmwTest, matrix)
