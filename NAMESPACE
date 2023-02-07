@@ -14,6 +14,7 @@ import(exact2x2, exactci, bpcp, ssanv, coin)
 importFrom("stats", "approx", "runif","isoreg")
 importFrom(stats, sd,var, 
     pt, 
+    rbeta,
     pbinom, rbinom, 
     rgamma, qgamma, pgamma,
     pnorm,qnorm,
