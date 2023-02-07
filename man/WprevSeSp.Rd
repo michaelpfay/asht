@@ -82,17 +82,14 @@ was less conservative but had less than nominal coverage in some scenarios.
 For details see Bayer, Fay and Graubard (2023). 
 }
 \references{
-Bayer, D.M., Fay, M.P., and Graubard, B.I. (2023). ``Confidence intervals for
-prevalence estimates from complex surveys with imperfect assays'' 	
-arXiv:2205.13494.
+Bayer, D.M., Fay, M.P., and Graubard, B.I. (2023). ''Confidence intervals for prevalence estimates from complex surveys with imperfect assays'' arXiv:2205.13494.
 
-Fay MP, Feuer EJ. Confidence intervals for directly standardized rates: a method 
-based on the gamma distribution. Statistics in Medicine 1997; 16(7): 791–801.
+Fay MP, Feuer EJ. Confidence intervals for directly standardized rates: a method based on the gamma distribution. Statistics in Medicine 1997; 16(7): 791-801.
 
 Korn EL, Graubard BI. Confidence intervals for proportions with small expected number of positive counts estimated from
-survey data. Survey Methodology 1998; 24: 193–201.
+survey data. Survey Methodology 1998; 24: 193-201.
 
-Rogan WJ, Gladen B. Estimating prevalence from the results of a screening test. Am J Epidemiol 1978; 107(1): 71–76.
+Rogan WJ, Gladen B. Estimating prevalence from the results of a screening test. Am J Epidemiol 1978; 107(1): 71-76.
 }
 \examples{
 example_data_WprevSeSp <- list(
